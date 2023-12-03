@@ -169,7 +169,7 @@ if st.button('Heart Disease Test Result'):
     output = np.round(prediction[0], 2)
     # st.warning(f"Positive Heart Disease Probability: {output}")
 
-    if output == 1:
+    if output >= 0.5:
         heart_diagnosis = 'Poistive; You have a heart disease'
     else:
         heart_diagnosis = 'Negative; Your heart is healthy'
