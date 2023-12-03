@@ -170,7 +170,7 @@ if st.button('Heart Disease Test Result'):
     # st.warning(f"Positive Heart Disease Probability: {output}")
 
     if output >= 0.5:
-        heart_diagnosis = 'Poistive; You have a heart disease'
+        heart_diagnosis = 'Positive; You have a heart disease'
     else:
         heart_diagnosis = 'Negative; Your heart is healthy'
 
