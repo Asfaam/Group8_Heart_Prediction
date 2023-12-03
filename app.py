@@ -16,7 +16,8 @@ with st.sidebar:
     selected = option_menu('Natembea Clinic (Ashesi) Disease Prediction System',
                           
                           ['Heart Disease Prediction'],
-                          icons=['heart'],
+                          icons=['activity'],
+                          menu_icon="hospital",
                           default_index=0,
 
                          styles={
@@ -32,15 +33,35 @@ with st.sidebar:
 if (selected == 'Heart Disease Prediction'):
     
     # page title
-    st.title('Heart Disease Prediction App')
+    st.title(':heart: Heart Disease Prediction App')
+    #st.title('Heart Disease Prediction App')
     st.markdown("""
     **:dart: Enter patient|user health information to predict heart health status.**
     """)
 
     
     col1, col2, col3 = st.columns(3)
+   
+    st.markdown(
+        """
+        <style>
+            .main {
+                padding: 8px;
+                color: blue;
+            }
+            .st-bw {
+                background-color:  green;
+                color: orange;
+                padding: 11px;
+                border-radius: 10px;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
     
     with col1:
+        st.markdown('<style>div[data-baseweb="input"]{background-color: green; padding: 5px; border-radius: 10px;}</style>', unsafe_allow_html=True)
         age = st.number_input('Age:', min_value=0, max_value=150, value=0)
         
     with col2:
@@ -63,10 +84,10 @@ if (selected == 'Heart Disease Prediction'):
         cp = cp_mapping[selected_cp] if selected_cp != '' else None
         
     with col1:
-        trtbps = st.number_input('Resting Blood Pressure:', min_value=0, max_value=500, value=0)
+        trtbps = st.number_input('Resting Blood Pressure:', min_value=0, max_value=300, value=0)
         
     with col2:
-        chol = st.number_input('Serum Cholestoral in mg/dl:', min_value=0, max_value=1000, value=0)
+        chol = st.number_input('Serum Cholestoral in mg/dl:', min_value=0, max_value=800, value=0)
         
     with col3:
         fbs_mapping = {' ': -1 , 'false': 0, 'true': 1}
@@ -87,7 +108,7 @@ if (selected == 'Heart Disease Prediction'):
         restecg = restecg_mapping[selected_restecg] if selected_restecg != '' else None
         
     with col2:
-        thalachh = st.number_input('Maximum Heart Rate achieved:', min_value=0, max_value=500, value=0)
+        thalachh = st.number_input('Maximum Heart Rate achieved:', min_value=0, max_value=300, value=0)
         
     with col3:
         exng_mapping = {' ': -1 , 'no': 0, 'yes': 1}
@@ -132,7 +153,9 @@ if (selected == 'Heart Disease Prediction'):
         
         
      
- # code for Prediction
+    
+
+   # code for Prediction
 heart_diagnosis = ''
 
 # creating a button for Prediction
@@ -156,6 +179,7 @@ if st.button('Heart Disease Test Result'):
     # Calculate confidence factor
     confidence_factor = 2.58 * np.sqrt((output * (1 - output)) / 1)  
     st.write(f"Confidence Factor: {confidence_factor}")
+
 
         
     
