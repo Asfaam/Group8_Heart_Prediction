@@ -52,7 +52,7 @@ if (selected == 'Heart Disease Prediction'):
             .st-bw {
                 background-color:  green;
                 color: orange;
-                padding: 11px;
+                padding: 10px;
                 border-radius: 10px;
             }
         </style>
