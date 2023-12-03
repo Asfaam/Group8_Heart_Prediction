@@ -40,14 +40,14 @@ The model is evaluated using accuracy, precision, recall, and AUC score. For add
 
 ## Additional Resources: Link to YouTube Video
 
-- [https://youtu.be/R_uE5n_Zlx4](#) - Watch a video explaining how the Heart Disease Prediction application works.
+- [https://youtu.be/R_uE5n_Zlx4] - Watch a video explaining how the Heart Disease Prediction application works.
 
 
 ## Acknowledgments
-- This project was developed as part of Ashesi University's coursework in Introduction to AI.
+- This project was developed as part of Ashesi University's coursework in Introduction to AI, Final Project.
 
 
-## Author
+## Authors
 - Faisal Alidu, Emmanuel Soumahoro
 
 ## ---
