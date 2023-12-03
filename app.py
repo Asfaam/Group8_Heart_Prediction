@@ -149,7 +149,7 @@ if st.button('Heart Disease Test Result'):
     if output == 1:
         heart_diagnosis = 'Poistive; You have a heart disease'
     else:
-        heart_diagnosis = 'Negative; You heart is healthy'
+        heart_diagnosis = 'Negative; Your heart is healthy'
 
     st.success(heart_diagnosis)
 
