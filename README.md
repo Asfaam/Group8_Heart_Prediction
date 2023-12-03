@@ -38,9 +38,12 @@ Heart Disease Prediction is a machine learning project that aims to predict the 
 
 The model is evaluated using accuracy, precision, recall, and AUC score. For additional details, refer to the model evaluation section in the Jupyter Notebook.
 
-## Additional Resources: Link to YouTube Video
-
+## Additional Resources: 
+- **Link to YouTube Video:** 
 - [https://youtu.be/R_uE5n_Zlx4] - Watch a video explaining how the Heart Disease Prediction application works.
+
+- **Link to Heart Prediction web app:**
+- [https://asfaam-group8-heart-prediction-app-qms8aq.streamlit.app/] - Follow this link to open the Heart Disease Prediction web application.
 
 
 ## Acknowledgments
