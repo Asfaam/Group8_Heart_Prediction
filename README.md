@@ -43,7 +43,7 @@ The model is evaluated using accuracy, precision, recall, and AUC score. For add
 - [https://youtu.be/R_uE5n_Zlx4] - Watch a video which demonstrates how the Heart Disease Prediction application works.
 
 - **Link to Heart Prediction web app:**
-- [https://asfaam-group8-heart-prediction-app-qms8aq.streamlit.app/] - Follow this link to open the Heart Disease Prediction web application.
+- [https://asfaam-group8-heart-prediction-app-fezswy.streamlit.app/] - Follow this link to open the Heart Disease Prediction web application.
 
 
 ## Acknowledgments
