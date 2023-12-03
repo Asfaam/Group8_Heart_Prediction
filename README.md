@@ -2,7 +2,7 @@
 
 ## Overview
 
-Heart Disease Prediction is a machine learning project that aims to predict the likelihood of an individual developing heart disease based on various health parameters. This project uses neural networks to build a predictive model. The dataset used for training and testing the model includes features such as age, sex, chest pain type, blood pressure, cholesterol level, and more.
+Heart Disease Prediction is a deep learning project that aims to predict the likelihood of an individual developing heart disease based on various health parameters. This project uses neural networks to build a predictive model. The dataset used for training and testing the model includes features such as age, sex, chest pain type, blood pressure, cholesterol level, and more.
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ The model is evaluated using accuracy, precision, recall, and AUC score. For add
 
 ## Additional Resources: 
 - **Link to YouTube Video:** 
-- [https://youtu.be/R_uE5n_Zlx4] - Watch a video explaining how the Heart Disease Prediction application works.
+- [https://youtu.be/R_uE5n_Zlx4] - Watch a video which demonstrates how the Heart Disease Prediction application works.
 
 - **Link to Heart Prediction web app:**
 - [https://asfaam-group8-heart-prediction-app-qms8aq.streamlit.app/] - Follow this link to open the Heart Disease Prediction web application.
